@@ -1,0 +1,1235 @@
+[2018-10-11 00:00:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:00:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:00:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:00:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:00:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:00:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:00:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:00:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:00:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:01:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:01:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:01:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:01:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:02:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:02:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:02:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:02:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:03:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:03:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:03:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:03:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:04:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:04:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:04:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:04:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:05:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:05:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:05:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:05:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:06:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:06:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:06:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:06:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:07:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:07:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:07:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:07:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:08:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:08:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:08:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:08:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:09:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:09:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:09:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:09:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:10:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:10:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:10:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:10:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:11:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:11:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:11:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:11:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:12:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:12:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:12:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:12:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:13:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:13:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:13:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:13:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:14:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:14:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:14:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:14:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:15:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:15:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:15:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:15:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:16:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:16:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:16:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:16:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:17:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:17:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:17:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:17:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:18:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:18:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:18:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:18:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:19:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:19:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:19:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:19:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:20:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:20:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:20:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:20:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:21:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:21:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:21:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:21:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:22:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:22:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:22:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:22:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:23:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:23:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:23:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:23:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:24:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:24:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:24:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:24:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:25:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:25:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:25:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:25:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:26:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:26:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:26:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:26:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:27:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:27:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:27:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:27:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:28:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:28:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:28:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:28:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:29:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:29:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:29:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:29:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:30:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:30:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:30:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:30:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:31:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:31:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:31:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:31:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:40][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:40]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:40][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:32:50][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:32:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:32:50]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:32:50][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:00][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:33:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:00][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:10][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:33:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:10]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:10][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:20][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:33:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:20]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:20][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:30][任务调度]--获取小时天气预报信息--开始
+[2018-10-11 00:33:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=获取小时天气预报信息, taskClass=com.zondy.timetask.TestJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:30][任务调度]--获取小时天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:44]定时任务名称:【采集15天天气预报信息】
+[2018-10-11 00:33:44]【采集15天天气预报信息】----启动成功----
+-------------------------------------------------------------------------
+[2018-10-11 00:33:44]定时任务名称:【采集农用天气预报信息】
+[2018-10-11 00:33:44]【采集农用天气预报信息】----启动成功----
+-------------------------------------------------------------------------
+[2018-10-11 00:33:44]定时任务名称:【采集当前所有格点各产品数据信息】
+[2018-10-11 00:33:44]【采集当前所有格点各产品数据信息】----启动成功----
+-------------------------------------------------------------------------
+[2018-10-11 00:33:50][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:33:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:50]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:50][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:33:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:33:50]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:33:50][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:33:50][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:00][任务调度]--采集15天天气预报信息--开始
+[2018-10-11 00:34:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=采集15天天气预报信息, taskClass=com.zondy.timetask.WeatherCollectJob, taskCronTrigger=0/30 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:00][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:00]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:00][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:00]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:00][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:01][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:08]采集成功-站点[郑州]天气预报！
+[2018-10-11 00:34:10][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:10]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:10][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:10][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:10]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:10][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:10][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:13][任务调度]--采集15天天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:20][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:20]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:20][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:20][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:20]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:20][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:20][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:30][任务调度]--采集15天天气预报信息--开始
+[2018-10-11 00:34:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:30]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=采集15天天气预报信息, taskClass=com.zondy.timetask.WeatherCollectJob, taskCronTrigger=0/30 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:30][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:30]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:30][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:30][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:30]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:30][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:30]采集成功-站点[郑州]天气预报！
+[2018-10-11 00:34:30][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:35][任务调度]--采集15天天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:40][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:40]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:40][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:40][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:40]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:40][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:40][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:50][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:34:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:50]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:50][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:34:50][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:34:50]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:34:50][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:34:50][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:35:00][任务调度]--采集15天天气预报信息--开始
+[2018-10-11 00:35:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:35:00]定时任务参数：{nodename=config, nodevalue=, id=dayWeatyerJob, taskName=采集15天天气预报信息, taskClass=com.zondy.timetask.WeatherCollectJob, taskCronTrigger=0/30 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:35:00][任务调度]--采集农用天气预报信息--开始
+[2018-10-11 00:35:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:35:00]定时任务参数：{nodename=config, nodevalue=, id=agriculturalWeatherJob, taskName=采集农用天气预报信息, taskClass=com.zondy.timetask.AgriculturalWeatherJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:35:00][任务调度]--采集当前所有格点各产品数据信息--开始
+[2018-10-11 00:35:00][任务组名]--EXTJWEB_JOBGROUP_NAME
+[2018-10-11 00:35:00]定时任务参数：{nodename=config, nodevalue=, id=todayAmgJob, taskName=采集当前所有格点各产品数据信息, taskClass=com.zondy.timetask.TodayAmgJob, taskCronTrigger=0/10 * *  * * ?, isExecute=true, retryTimes=1, retrySpaceTime=30}
+[2018-10-11 00:35:00]采集成功-站点[郑州]天气预报！
+[2018-10-11 00:35:00][任务调度]--采集当前所有格点各产品数据信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 00:35:00][任务调度]--采集农用天气预报信息--结束
+-------------------------------------------------------------------------
+[2018-10-11 09:49:45]采集成功-站点[郑州]天气预报！
+[2018-10-11 09:49:51]采集成功-站点[荥阳]天气预报！
+[2018-10-11 09:49:57]采集成功-站点[登封]天气预报！
+[2018-10-11 09:50:23]采集失败-站点[新密]天气预报！
+[2018-10-11 09:50:28]采集成功-站点[新郑]天气预报！
+[2018-10-11 09:50:34]采集成功-站点[中牟]天气预报！
+[2018-10-11 09:50:39]采集成功-站点[洛阳]天气预报！
+[2018-10-11 09:50:48]采集成功-站点[新安]天气预报！
+[2018-10-11 09:50:54]采集成功-站点[孟津]天气预报！
+[2018-10-11 09:51:00]采集成功-站点[伊川]天气预报！
+[2018-10-11 09:51:06]采集成功-站点[偃师]天气预报！
+[2018-10-11 09:51:11]采集成功-站点[栾川]天气预报！
+[2018-10-11 09:51:18]采集成功-站点[汝阳]天气预报！
+[2018-10-11 09:51:26]采集成功-站点[洛宁]天气预报！
+[2018-10-11 09:51:32]采集成功-站点[嵩县]天气预报！
+[2018-10-11 09:51:38]采集成功-站点[宜阳]天气预报！
+[2018-10-11 09:51:44]采集成功-站点[开封]天气预报！
+[2018-10-11 09:51:50]采集成功-站点[尉氏]天气预报！
+[2018-10-11 09:51:55]采集成功-站点[杞县]天气预报！
+[2018-10-11 09:52:03]采集成功-站点[通许]天气预报！
+[2018-10-11 09:52:09]采集成功-站点[商丘]天气预报！
+[2018-10-11 09:52:17]采集成功-站点[虞城]天气预报！
+[2018-10-11 09:52:23]采集成功-站点[柘城]天气预报！
+[2018-10-11 09:52:49]采集失败-站点[宁陵]天气预报！
+[2018-10-11 09:52:54]采集成功-站点[夏邑]天气预报！
+[2018-10-11 09:53:00]采集成功-站点[睢县]天气预报！
+[2018-10-11 09:53:05]采集成功-站点[民权]天气预报！
+[2018-10-11 09:53:31]采集失败-站点[平顶山]天气预报！
+[2018-10-11 09:53:57]采集失败-站点[郏县]天气预报！
+[2018-10-11 09:54:03]采集成功-站点[宝丰]天气预报！
+[2018-10-11 09:54:08]采集成功-站点[鲁山]天气预报！
+[2018-10-11 09:54:34]采集失败-站点[叶县]天气预报！
+[2018-10-11 09:55:00]采集失败-站点[舞钢]天气预报！
+[2018-10-11 09:55:06]采集成功-站点[许昌]天气预报！
+[2018-10-11 09:55:12]采集成功-站点[长葛]天气预报！
+[2018-10-11 09:55:18]采集成功-站点[禹州]天气预报！
+[2018-10-11 09:55:23]采集成功-站点[鄢陵]天气预报！
+[2018-10-11 09:55:28]采集成功-站点[襄城]天气预报！
+[2018-10-11 09:55:34]采集成功-站点[漯河]天气预报！
+[2018-10-11 09:55:40]采集成功-站点[舞阳]天气预报！
+[2018-10-11 09:55:46]采集成功-站点[临颍]天气预报！
+[2018-10-11 09:55:51]采集成功-站点[南阳]天气预报！
+[2018-10-11 09:55:57]采集成功-站点[西峡]天气预报！
+[2018-10-11 09:56:04]采集成功-站点[内乡]天气预报！
+[2018-10-11 09:56:09]采集成功-站点[镇平]天气预报！
+[2018-10-11 09:56:14]采集成功-站点[南召]天气预报！
+[2018-10-11 09:56:20]采集成功-站点[方城]天气预报！
+[2018-10-11 09:56:26]采集成功-站点[淅川]天气预报！
+[2018-10-11 09:56:32]采集成功-站点[新野]天气预报！
+[2018-10-11 09:56:37]采集成功-站点[唐河]天气预报！
+[2018-10-11 09:56:43]采集成功-站点[桐柏]天气预报！
+[2018-10-11 09:56:50]采集成功-站点[社旗]天气预报！
+[2018-10-11 09:56:55]采集成功-站点[三门峡]天气预报！
+[2018-10-11 09:57:01]采集成功-站点[灵宝]天气预报！
+[2018-10-11 09:57:06]采集成功-站点[渑池]天气预报！
+[2018-10-11 09:57:12]采集成功-站点[卢氏]天气预报！
+[2018-10-11 09:57:17]采集成功-站点[周口]天气预报！
+[2018-10-11 09:57:22]采集成功-站点[项城]天气预报！
+[2018-10-11 09:57:48]采集失败-站点[商水]天气预报！
+[2018-10-11 09:58:14]采集失败-站点[扶沟]天气预报！
+[2018-10-11 09:58:40]采集失败-站点[太康]天气预报！
+[2018-10-11 09:59:06]采集失败-站点[淮阳]天气预报！
+[2018-10-11 09:59:33]采集失败-站点[西华]天气预报！
+[2018-10-11 09:59:59]采集失败-站点[泛区]天气预报！
+[2018-10-11 10:00:25]采集失败-站点[郸城]天气预报！
+[2018-10-11 10:00:51]采集失败-站点[沈丘]天气预报！
+[2018-10-11 10:01:17]采集失败-站点[安阳]天气预报！
+[2018-10-11 10:01:43]采集失败-站点[汤阴]天气预报！
+[2018-10-11 10:02:09]采集失败-站点[内黄]天气预报！
+[2018-10-11 10:02:35]采集失败-站点[林州]天气预报！
+[2018-10-11 10:03:01]采集失败-站点[济源]天气预报！
+[2018-10-11 10:03:27]采集失败-站点[焦作]天气预报！
+[2018-10-11 10:03:53]采集失败-站点[博爱]天气预报！
+[2018-10-11 10:04:19]采集失败-站点[修武]天气预报！
+[2018-10-11 10:04:45]采集失败-站点[武陟]天气预报！
+[2018-10-11 10:04:50]采集成功-站点[温县]天气预报！
+[2018-10-11 10:04:56]采集成功-站点[孟州]天气预报！
+[2018-10-11 10:05:02]采集成功-站点[沁阳]天气预报！
+[2018-10-11 10:05:09]采集成功-站点[鹤壁]天气预报！
+[2018-10-11 10:05:14]采集成功-站点[淇县]天气预报！
+[2018-10-11 10:05:20]采集成功-站点[浚县]天气预报！
+[2018-10-11 10:05:25]采集成功-站点[新乡]天气预报！
+[2018-10-11 10:05:31]采集成功-站点[封丘]天气预报！
+[2018-10-11 10:05:36]采集成功-站点[辉县]天气预报！
+[2018-10-11 10:05:42]采集成功-站点[获嘉]天气预报！
+[2018-10-11 10:05:47]采集成功-站点[原阳]天气预报！
+[2018-10-11 10:05:53]采集成功-站点[卫辉]天气预报！
+[2018-10-11 10:05:58]采集成功-站点[延津]天气预报！
+[2018-10-11 10:06:03]采集成功-站点[濮阳]天气预报！
+[2018-10-11 10:06:09]采集成功-站点[南乐]天气预报！
+[2018-10-11 10:06:14]采集成功-站点[清丰]天气预报！
+[2018-10-11 10:06:19]采集成功-站点[范县]天气预报！
+[2018-10-11 10:06:25]采集成功-站点[台前]天气预报！
+[2018-10-11 10:06:30]采集成功-站点[驻马店]天气预报！
+[2018-10-11 10:06:35]采集成功-站点[平舆]天气预报！
+[2018-10-11 10:06:44]采集成功-站点[确山]天气预报！
+[2018-10-11 10:06:50]采集成功-站点[正阳]天气预报！
+[2018-10-11 10:06:55]采集成功-站点[上蔡]天气预报！
+[2018-10-11 10:07:01]采集成功-站点[泌阳]天气预报！
+[2018-10-11 10:07:07]采集成功-站点[西平]天气预报！
+[2018-10-11 10:07:12]采集成功-站点[遂平]天气预报！
+[2018-10-11 10:07:17]采集成功-站点[汝南]天气预报！
+[2018-10-11 10:07:23]采集成功-站点[信阳]天气预报！
+[2018-10-11 10:07:28]采集成功-站点[罗山]天气预报！
+[2018-10-11 10:07:33]采集成功-站点[光山]天气预报！
+[2018-10-11 10:07:40]采集成功-站点[新县]天气预报！
+[2018-10-11 10:07:45]采集成功-站点[息县]天气预报！
+[2018-10-11 10:07:50]采集成功-站点[淮滨]天气预报！
+[2018-10-11 10:07:55]采集成功-站点[潢川]天气预报！
+[2018-10-11 10:08:02]采集成功-站点[商城]天气预报！
+[2018-10-11 10:08:08]采集成功-站点[巩义]天气预报！
+[2018-10-11 10:08:17]采集成功-站点[兰考]天气预报！
+[2018-10-11 10:08:22]采集成功-站点[汝州]天气预报！
+[2018-10-11 10:08:28]采集成功-站点[滑县]天气预报！
+[2018-10-11 10:08:34]采集成功-站点[长垣]天气预报！
+[2018-10-11 10:08:39]采集成功-站点[邓州]天气预报！
+[2018-10-11 10:08:45]采集成功-站点[永城]天气预报！
+[2018-10-11 10:08:50]采集成功-站点[固始]天气预报！
+[2018-10-11 10:08:56]采集成功-站点[鹿邑]天气预报！
+[2018-10-11 10:09:01]采集成功-站点[新蔡]天气预报！

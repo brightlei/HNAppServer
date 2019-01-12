@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+     <package name="ajaxjson" extends="json-default" namespace="/json">
+    	<action name="*!*" class="com.zondy.web.json.{1}Action" method="{2}">    		
+    		<result name="map" type="json">
+    			<param name="root">dataMap</param>
+    			<param name="contentType">text/html</param>
+    		</result>
+    	</action>
+    </package>
+</struts>

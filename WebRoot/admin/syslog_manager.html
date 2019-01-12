@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>系统运行日志管理</title>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript">
+    function onBeforeLoad(param){
+    	param.key=$("#logLevel").val();
+    }
+    //重新加载数据
+    function reloadData(){
+    	$("#dg").datagrid("reload");
+    }
+    //行样式
+    function rowStyler(index,row){
+    	if(row.logLevel=="ERROR"){
+    		return 'background-color:red;';
+    	}else if(row.logLevel=="WARNING"){
+    		return 'background-color:orange;';
+    	}
+    }
+    //显示详细信息
+    function showInfo(index, row){
+    	var sb = new Array();
+    	sb.push("<p style='padding:0px 5px;line-height:24px;'><b>日志级别：</b>"+row.loglevel+"</p>");
+    	sb.push("<p style='padding:0px 5px;line-height:24px;'><b>日志时间：</b>"+row.logtime+"</p>");
+    	sb.push("<p style='padding:0px 5px;line-height:24px;'><b>日志类名：</b>"+row.classname+"</p>");
+    	sb.push("<p style='padding:0px 5px;line-height:24px;'><b>日志信息：</b>"+row.message+"</p>");
+    	var content = sb.join("");
+    	top.layerIndex = top.openLayerWindow("日志详细信息",0.6,["800px","400px"],1,content,function(index){
+    		top.layer.close(index);
+    	},function(index){
+    		top.layerInde = index;
+    	});
+    }
+    </script>
+  </head>
+  
+  <body>
+  	<div id="tb" style="padding:5px;">
+  		日志级别：<select id="logLevel" style="height:24px;" onchange="reloadData()">
+  			<option value="">全部</option>
+  			<option value="ERROR">错误(ERROR)</option>
+  			<option value="WARNING">警告(WARNING)</option>
+  			<option value="INFO">信息(INFO)</option>
+  		</select>
+  	</div>
+    <table id="dg" class="easyui-datagrid" data-options="url:'../json/Web!listLogs',striped:true,fit:true,singleSelect:true,pagination:true,rownumbers:true,pageNumber:1,toolbar:'#tb',rowStyler:rowStyler,onBeforeLoad:onBeforeLoad,onClickRow:showInfo">
+    	<thead>
+			<tr>
+				<th field="loglevel" width="70" align="center">日志级别</th>
+				<th field="logtime" width="150" align="center">日志时间</th>
+				<th field="classname" width="240">类名</th>
+				<th field="message" width="60%">日志信息</th>
+			</tr>
+		</thead>
+    </table>
+  </body>
+</html>

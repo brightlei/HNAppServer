@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configs title="SQL语句配置">
+	<!-- 后台管理相关SQL语句配置开始 -->
+	<admin_getDicType title="数据字典-获取字典类型">select id,code,name from T_DIC</admin_getDicType>
+	<admin_getDicData title="数据字典-获取字典分类数据">select * from T_DICDATA where diccode='#code#'</admin_getDicData>
+	<admin_saveDicData title="">insert into T_DICDATA(diccode,code,name,rank) values('#diccode#','#code#','#name#','#rank#')</admin_saveDicData>
+	<admin_editDicData title="">update T_DICDATA set code='#code#',name='#name#',rank='#rank#' where id='#id#'</admin_editDicData>
+	<admin_deleteDicData title="">delete from T_DICDATA where id='#id#'</admin_deleteDicData>
+	<admin_getAppInstallCount>select count(1) from T_AppInstall</admin_getAppInstallCount>
+	<admin_getAppInstall>select * from T_AppInstall</admin_getAppInstall>
+	<admin_getStationList>select * from T_STATION</admin_getStationList>
+	<!-- 后台管理相关SQL语句配置结束 -->
+	<!-- 数据采集 -->
+	<saveAlarmRecord title="保存预警信息采集记录">insert into T_ALARM_RECORD(title,pageurl,alarmtime) values('#title#','#dataurl#','#alarmtime#')</saveAlarmRecord>
+	<saveAlarmInfo title="保存预警信息">insert into T_WEATHER_ALARM(stationId,station_no,title,alarmicon,alarmstate,content,defense_guide,alarmtime) values('#stationId#','#station_no#','#title#','#alarmicon#','#alarmstate#','#content#','#defense_guide#','#alarmtime#')</saveAlarmInfo>
+	<getNewAlarmRecord title="获取最新的预警采集记录">select * from T_ALARM_RECORD order by id desc</getNewAlarmRecord>
+	<saveNowWeather title="保存当前天气信息">insert into T_WEATHER_NOW(stationId,datetime,week,weather,icon,temp,lotemp,hitemp,humi,windf,winds,kqzl,zwx,pm,rc,rl,updatetime) values('#stationId#','#datetime#','#week#','#weather#','#iconurl#','#temp#','#lotemp#','#hitemp#','#humi#','#windf#','#winds#','#kqzl#','#zwx#','#pm#','#rc#','#rl#','#updatetime#')</saveNowWeather>
+	<updateNowWeather title="更新当前天气信息">update T_WEATHER_NOW set week='#week#',weather='#weather#',icon='#iconurl#',temp='#temp#',humi='#humi#',windf='#windf#',winds='#winds#',kqzl='#kqzl#',zwx='#zwx#',pm='#pm#',rc='#rc#',rl='#rl#',updatetime='#updatetime#' where datetime='#datetime#' and stationId='#stationId#'</updateNowWeather>
+	<checkNowWeather title="检查当前天气数据是否入库">select * from T_WEATHER_NOW where datetime='#datetime#' and stationId='#stationId#'</checkNowWeather>
+	<getWeatherStations title="获取需要采集的站点">select distinct(stationId) as stationId,t2.ename from T_USER_STATION t1,T_STATION t2 where t1.stationId=t2.id</getWeatherStations>
+	<checkDay15Weather title="检查15天预报数据是否存在">select * from T_WEATHER_DAY15 where datetime='#datetime#' and stationId='#stationId#'</checkDay15Weather>
+	<saveDay15Weather title="保存15天预报数据">insert into T_WEATHER_DAY15(stationId,datetime,jsondata,updatetime) values('#stationId#','#datetime#','#jsondata#','#updatetime#')</saveDay15Weather>
+	<updateDay15Weather title="更新15天预报数据">update T_WEATHER_DAY15 set jsondata='#jsondata#',updatetime='#updatetime#' where datetime='#datetime#' and stationId='#stationId#'</updateDay15Weather>
+	<checkDayGrdData title="检查当天格点产品数据是否存在">select * from T_STATION_GRDDATA where stationId='#stationId#' and grd_name='#grd_name#'</checkDayGrdData>
+	<saveGrdData title="保存格点产品数据">insert into T_STATION_GRDDATA(stationId,datetime,grd_name,group_dir,crop_code,element_time,element_name,element_value,updatetime) values('#stationId#','#datetime#','#grd_name#','#group_dir#','#crop_code#','Day','#element_name#','#element_value#','#updatetime#')</saveGrdData>
+	<updateGrdData title="更新格点产品数据">update T_STATION_GRDDATA set element_value='#element_value#',updatetime='#updatetime#' where stationId='#stationId#' and grd_name='#grd_name#'</updateGrdData>
+	<!-- 数据采集结束 -->
+	<pwdQuestionList title="找回密码问题列表">select code,name from T_DICDATA where diccode='FINDPWD'</pwdQuestionList>
+	<checkUserExist title="检查用户是否存在">select count(1) from T_USER where username='#username#'</checkUserExist>
+	<checkNickname title="检查用户昵称是否存在">select count(1) from T_USER where nickname='#nickname#'</checkNickname>
+	<registUser title="用户注册">insert into T_USER(username,userpwd,nickname,pwd_question,pwd_answer,userimg,last_usetime) values('#username#','#userpwd#','#nickname#','#pwd_question#','#pwd_answer#','','')</registUser>
+	<checkLogin title="用户登录验证">select userid,username,userpwd,nickname,userimg from T_USER where username='#username#'</checkLogin>
+	<getUserInfo title="获取用户信息">select * from T_USER where username='#username#'</getUserInfo>
+	<updateUserUsetime title="更新用户最后使用时间">update T_USER set last_usetime=CONVERT(varchar, getdate(), 120) where username='#username#'</updateUserUsetime>
+	<setStationCityCode title="设置站点城市编号">update T_STATION set city_code='#city_code#' where station_no='#station_no#'</setStationCityCode>
+	<getAllStation title="获取所有站点数据">select id as stationid,name,ename,station_no,soil_no,x,y from T_STATION</getAllStation>
+	<getUserStation title="获取用户关注城市">select t.stationId,t1.name,t1.station_no,t1.soil_no,t2.temp,t2.weather,t2.icon,t2.humi,t2.lotemp,t2.hitemp,t2.kqzl,t2.windf,t2.winds from T_USER_STATION t left join T_STATION t1 on t.stationId=t1.id left join T_Weather_NOW t2 on t.stationId=t2.stationId and CONVERT(varchar(10), getdate(), 120)=t2.datetime where username='#username#'</getUserStation>
+	<addUserStation title="添加用户关注城市">if not exists (select * from T_USER_STATION where username='#username#' and stationid='#stationId#') insert into T_USER_STATION(username,stationId) values('#username#','#stationId#')</addUserStation>
+	<deleteUserStation title="删除用户关注站点">delete from T_USER_STATION where username='#username#' and stationid='#stationid#'</deleteUserStation>
+	<getNowWeather title="获取当前最新预报">select * from T_WEATHER_NOW where datetime=CONVERT(varchar(100), GETDATE(), 23) and stationid='#stationid#'</getNowWeather>
+	<getTodayForecast title="获取今天天气预报数据">select stationid,datetime,group_dir,crop_code,element_time,element_name,element_value,updatetime from T_STATION_GRDDATA where datetime=CONVERT(varchar(100), GETDATE(), 112) and stationid='#stationid#'</getTodayForecast>
+	<getWeatherDay15Data title="获取每日数据">select * from T_WEATHER_DAY15 where datetime=CONVERT(varchar(100), GETDATE(), 23) and stationid='#stationid#'</getWeatherDay15Data>
+	<getAgrWeatherData title="获取农用天气预报">select stationid,datetime,group_dir,crop_code,element_time,element_name,element_value,updatetime from T_STATION_GRDDATA where datetime>=CONVERT(varchar(100), GETDATE(), 112) and group_dir='AgmWeather' and stationid='#stationid#' order by datetime,group_dir</getAgrWeatherData>
+	<updateUserPwd title="修改用户密码">update T_USER set userpwd='#md5newpwd#' where username='#username#'</updateUserPwd>
+	<updateUserImg title="修改用户头像">update T_USER set userimg='#userimg#' where username='#username#'</updateUserImg>
+	<updateUserNickname title="修改用户昵称">update T_USER set nickname='#nickname#' where username='#username#'</updateUserNickname>
+	<getCropList title="获取农作物列表" time="2018-11-29 09:40">select id,code,name from T_CROP</getCropList>
+	<getCropDisease title="获取农作物病虫害防治信息" time="2018-11-29 09:45">select t.id,t.cropcode,t1.name as cropname,t.diseasename from T_CROP_DISEASE t,T_CROP t1 where t.cropcode=t1.code</getCropDisease>
+	<getCropDiseaseInfo title="根据ID获取病虫害详细信息">select * from T_CROP_DISEASE where id='#id#'</getCropDiseaseInfo>
+	<addUserFarm title="添加用户农场" time="2018-11-29 16:27">insert into T_FARM(name,area,cropcode,cropname,address,x,y,description,username) values('#name#','#area#','#cropcode#','#cropname#','#address#','#x#','#y#','#description#','#username#')</addUserFarm>
+	<getUserFarm title="获取用户农场列表" time="2018-11-29 16:28">select * from T_FARM where username='#username#' order by createtime desc</getUserFarm>
+	<deleteUserFarm title="删除用户农场信息">delete from T_FARM where id='#id#' and username='#username#'</deleteUserFarm>
+	<getStationAlarm>select top 1 * from T_WEATHER_ALARM where stationid='#stationid#' order by id desc</getStationAlarm>
+</configs>

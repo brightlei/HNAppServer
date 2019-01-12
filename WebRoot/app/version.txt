@@ -1,0 +1,1 @@
+{"state":"yes","mark":"1.0.1","url":"http://218.28.7.247:8003/HNAppServer/app/HNAPP-1.0.1.apk","info":"1、正式发布1.0版本；\n2、优化了数据显示；"}

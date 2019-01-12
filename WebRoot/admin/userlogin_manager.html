@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>用户操作日志管理</title>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript" src="../jslib/point_transform.js"></script>
+    <script type="text/javascript" src="js/admin_userlogin.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O6u2zzUKRRCmET0uxe1RR4fq"></script>
+  </head>
+  
+  <body>
+  	<div id="mapWin" title="地图窗口" class="easyui-window" data-options="maximized:true,minimizable:false,maximizable:false,closed:true">
+		<div id="allmap" style="width:100%;height:100%;background:red;"></div>
+	</div>
+  	<div id="tb" style="padding:5px;">
+  		<input id="keyword" class="easyui-searchbox" style="width:300px;height:26px;" data-options="searcher:searchInfo,prompt:'请输入用户名或者登录人姓名'"></input>
+		<div style="float:right;"><span id="loginCount" style="margin-right:15px;color:blue;font-weight:bold;"></span><a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-hamburg-world'" onclick="showMapWin()">地图显示</a></div>
+  	</div>
+    <table id="dg"></table>
+  </body>
+</html>

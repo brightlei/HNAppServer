@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>人员信息管理</title>
+    <style type="text/css">
+    .inputcss{padding:5px;border:1px solid #f7f7f7;}
+    .dataTable td{padding:5px;}
+    </style>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript" src="../jslib/ajax.js"></script>
+    <script type="text/javascript" src="js/admin_person.js?t=1"></script>
+    <script src="../jslib/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="../jslib/uploadify/uploadify.css">
+</head>
+<body style="background:#FFFFFF;overflow:hidden;" class="easyui-layout" onload="onloadComplete()">
+	<div id="formWin" title="人员管理表单" class="easyui-window" data-options="closed:true" style="width:600px;height:400px;padding:5px;overflow:hidden;">
+		<input type="hidden" id="id" value=""/>
+		<table class="dataTable" border="1" bordercolor="#ccc" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+			<tr>
+				<td style="text-align:right;">人员姓名：</td>
+				<td><input id="name" class="easyui-textbox" data-options="prompt:'请输入人员姓名'" style="width:100%;height:30px;"></td>
+				<td rowspan="4" style="width:140px;text-align:center;">
+					<input type="hidden" id="userimg" value="images/user_head.png"/>
+					<img title="点击上传图片" id="user-photo" src="../images/user_head.png" onerror="this.src='../images/user_head.png'" style="width:130px;border:1px solid #eee;" />
+					<input type="file" id="uploadify" name="uploadify" style="margin-left:8px;"/>
+					<!-- <input type="file" accept="image/*" id="imgfile" name="imgfile" style="display:none;"> onclick="selectUserHeadImg()"-->
+				</td>
+			</tr>
+			<tr>
+				<td style="width:100px;text-align:right;">所属部门：</td>
+				<td><input id="department" class="easyui-combotree" data-options="" style="width:100%;height:30px;"></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">职务名称：</td>
+				<td><select id="duty" style="width:100%;height:30px;"></select></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">联系电话：</td>
+				<td><input id="telephone" class="easyui-textbox" data-options="prompt:'请输入联系电话'" style="width:100%;height:30px;"></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">描述信息：</td>
+				<td colspan="2"><input id="description" class="easyui-textbox" data-options="prompt:'请输入描述信息',multiline:true" style="width:100%;height:90px;"></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<a href="javascript:void(0)" class="easyui-linkbutton c9" data-options="iconCls:'icon-ok'" onclick="doSubmitAction()" style="width:60px;height:30px;">提交</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div data-options="region:'center',border:false" style="padding:5px;">
+		<div id="tbtool" style="padding:5px;overflow:hidden;">
+			<span style="color:blue;">当前部门：襄阳工务段 -> 科室  -> 劳人科</span>
+			<span style="color:green;margin-left:20px;">部门人员总数：<label style="font-weight:bold;">0</label> 人</span>
+			<a href="javascript:void(0)" class="easyui-linkbutton normal" iconCls="icon-add" onclick="updateMenu()" style="margin-left:10px;">添加部门人员</a>
+		</div>
+		<table id="dg"></table>
+		<div id="tb" style="padding:5px;">
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="addAction()">添加</a>
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true" onclick="editAction()">修改</a>
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="deleteAction()">删除</a>
+			<div id="opMessage" class="ajaxTipsMsg" style="display:none;"></div>
+		</div>
+		<table id="dg"></table>
+      </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>气象博士(三农版)下载</title>
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<style type="text/css">
+	*{margin:0px;padding:0px;}
+	body,html{width:100%;height:100%;}
+	.appicon{text-align:center;padding:20px;}
+	.appinfo{font-size:1.2rem;line-height:1.8rem;padding:10px;padding-top:0px;}
+	.download{text-align:center;margin-top:20px;}
+	</style>
+	<link rel="stylesheet" href="layui/css/layui.css" media="all">
+  </head>
+  <body>
+    <div>
+    	<div class="appicon"><img src="images/appicon_200X200.png" style="width:150px;"/></div>
+    	<div class="appinfo">　　气象博士(三农版)是基于手机平台开发的农业气象信息服务平台，旨在农业大户和社会公众提供和农业相关的专业气象服务。主要内容包括：农用天气预报和预警、气象资料查询、病虫害防治、农业气象灾害防御、农产品价格查询及信息交流互动等内容。</div>
+    	<div class="download">
+    		<a href="app/HeNan-1.0.1.apk" download="气象博士(三农版)-安卓">
+	    		<button class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal">
+				  <img src="images/android.png" style="width:22px;position:relative;top:-3px;"/> 安卓版本
+				</button>
+			</a>
+			<button class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal" onclick="showTips();">
+			  <img src="images/ios.png" style="width:22px;position:relative;top:-3px;"/> 苹果版本
+			</button>
+    	</div>
+    </div>
+  </body>
+  <script src="layui/layui.js?t=1535898708509"></script>
+  <script type="text/javascript">
+  	var layer;
+  	layui.use(["layer"],function(){
+  		layer = layui.layer;
+  	});
+  	
+  	function showTips(){
+  		layer.alert("苹果版本尚未上线，尽请期待！");
+  	}
+  </script>
+</html>

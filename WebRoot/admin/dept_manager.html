@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>部门信息管理</title>
+    <style type="text/css">
+    .inputcss{padding:5px;border:1px solid #f7f7f7;}
+    </style>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript" src="js/admin_dept.js?t=123"></script>
+    <script type="text/javascript" src="../layer/layer.js" ></script>
+	<script type="text/javascript" src="../layer/layer-common.js" ></script>
+</head>
+<body oncontextmenu="return false" style="background:#FFFFFF;" class="easyui-layout">
+	<div data-options="region:'west',border:false" style="width:260px;padding:5px;">
+        <div id="treePanel" class="easyui-panel" title="组织机构列表" fit="true" style="padding:0px;">
+			<div id="treeOpTips" style="display:none;position:absolute;left:10px;top:38px;z-index:555;width:230px;padding:5px;background:#eee;font-weight:bold;color:blue;"></div>
+			<div id="ids"></div>
+			<div id="mm" class="easyui-menu" style="width:120px;">
+			    <div onclick="append()" data-options="iconCls:'icon-add'">添加部门</div>
+			    <div onclick="removeit()" data-options="iconCls:'icon-remove'">删除部门</div>
+		    </div>
+            <ul title="鼠标点键可以添加部门、修改部门、删除部门和添加人员等操作" id="menuTree" class="easyui-tree" style="margin:5px;"></ul>
+		</div>
+    </div>
+	<div id="regionCenter" data-options="region:'center',border:false" style="padding:5px 5px 5px 0px;">
+		<form id="myform">
+			<input type="hidden" id="pcode" value=""/>
+			<table id="tbForm" class="dataTable" border="1" bordercolor="#95B8E7" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;">
+				<tr>
+					<td style="width:70px;text-align:right;">部门ID：</td>
+					<td><input type="text" class="easyui-textbox" id="part_id" disabled style="width:300px;padding:5px;"/></td>
+				</tr>
+				<tr>
+					<td style="width:70px;text-align:right;">部门编码：</td>
+					<td><input type="text" class="easyui-textbox" id="part_code" disabled style="width:300px;padding:5px;"/></td>
+				</tr>
+				<tr>
+					<td style="width:70px;text-align:right;">部门名称：</td>
+					<td><input type="text" class="easyui-textbox" id="part_name" style="width:300px;padding:5px;"/></td>
+				</tr>
+				<tr>
+					<td style="width:70px;text-align:right;">部门排序：</td>
+					<td><input type="text" class="easyui-numberbox" id="part_rank" style="width:60px;padding:5px;" value="0"/><span style="color:red;margin-left:5px;">数值越大，越排在前面</span></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left:30px;"><a href="javascript:void(0)" class="easyui-linkbutton normal" iconCls="icon-edit" onclick="updateMenu()">修改部门名称</a></td>
+				</tr>
+			</table>
+		</form>
+		<div id="opMessage" class="ajaxTipsMsg" style="display:none;"></div>
+		<div style="margin:5px;display:none;">使用说明：</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/tx 
+           http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	<description>Spring Quick Start</description>
+	<!-- 开启Spring的Annotation注解处理器 -->
+	<context:annotation-config />
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"></property>
+		<!-- 公司环境 -->
+		<property name="url" value="jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=qxbsapp"></property>
+		<property name="username" value="sa"></property>
+		<property name="password" value="qxdatasa"></property>
+		
+		<!-- 真实环境
+		<property name="url" value="jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=qxbsapp"></property>
+		<property name="username" value="sa"></property>
+		<property name="password" value="qxbs2018"></property>
+		 -->
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.connection.pool_size">100</prop>
+				<prop key="hibernate.current_session_context_class">thread</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.use_sql_comments">false</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list></list>
+		</property>
+	</bean>
+	<!-- 装配HibernateTemplate实例 -->
+	<bean id="hibernateTemplate"
+		class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<constructor-arg ref="sessionFactory" />
+	</bean>
+	<!-- 装配通用数据库访问类BaseDAOImpl -->
+	<bean id="dao" class="com.zondy.database.dao.BaseDAOImpl">
+		<property name="hibernateTemplate" ref="hibernateTemplate" />
+	</bean>
+	<!-- 将dao注入到服务类 -->
+	<bean id="dataService" class="com.zondy.service.DataService">
+		<property name="dao" ref="dao" />
+	</bean>
+	<!-- 
+	<bean id="dataSourceTwo" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"></property>
+		<property name="url" value="jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=hbry"></property>
+		<property name="username" value="sa"></property>
+		<property name="password" value="qxdatasa"></property>
+	</bean>
+	<bean id="sessionFactoryTwo"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceTwo" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.connection.pool_size">100</prop>
+				<prop key="hibernate.current_session_context_class">thread</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.use_sql_comments">false</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list></list>
+		</property>
+	</bean>
+	<bean id="hibernateTemplateTwo"
+		class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<constructor-arg ref="sessionFactoryTwo" />
+	</bean>
+	<bean id="daoTwo" class="com.zondy.base.dao.BaseDAOImpl">
+		<property name="hibernateTemplate" ref="hibernateTemplateTwo" />
+	</bean>
+	 -->
+</beans>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taskConfig title="系统定时任务配置"> 
+  <config id="dayWeatyerJob" taskName="采集15天天气预报信息" taskClass="com.zondy.timetask.WeatherCollectJob" taskCronTrigger="0 0 1  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="agriculturalWeatherJob" taskName="采集农用天气预报信息" taskClass="com.zondy.timetask.AgriculturalWeatherJob" taskCronTrigger="0 0 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="todayAmgJob" taskName="采集当前所有格点各产品数据信息" taskClass="com.zondy.timetask.TodayAmgJob" taskCronTrigger="0 0 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="alarmCollectJob" taskName="采集河南省预警数据信息" taskClass="com.zondy.timetask.WeatherAlarmJob" taskCronTrigger="0 0/20 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="weatherForecastJob" taskName="采集河南省天气预报数据信息" taskClass="com.zondy.timetask.WeatherForecastJob" taskCronTrigger="0 0/20 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="day15weatherJob" taskName="15天天气预报数据采集" taskClass="com.zondy.timetask.WeatherDay15Job" taskCronTrigger="0 0/20 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="grdDataCollecttJob" taskName="格点产品数据采集" taskClass="com.zondy.timetask.GrdDataCollectJob" taskCronTrigger="0 0 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+</taskConfig>

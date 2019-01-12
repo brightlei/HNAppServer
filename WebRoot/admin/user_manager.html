@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>用户信息管理</title>
+    <style type="text/css">
+    .inputcss{padding:5px;border:1px solid #f7f7f7;}
+    .dataTable td{padding:5px;}
+    </style>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript" src="js/admin_user.js?t=111242"></script>
+</head>
+<body style="background:#FFFFFF;overflow:hidden;" class="easyui-layout" onload="onloadComplete()">
+	<div id="formWin" title="用户管理表单" class="easyui-window" data-options="closed:true" style="width:600px;height:280px;padding:5px;">
+		<input type="hidden" id="id" value=""/>
+		<table class="dataTable" border="1" bordercolor="#ccc" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+			<tr>
+				<td style="text-align:right;">人员姓名：</td>
+				<td><span id="personName"></span><select id="personid" onchange="getUserName()" style="width:100%;height:30px;"></select></td>
+			</tr>
+			<tr>
+				<td style="width:100px;text-align:right;">用户名：</td>
+				<td><input id="username" type="text" style="width:98%;height:30px;"/></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">默认密码：</td>
+				<td id="userpwd">123456</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">用户角色：</td>
+				<td><select id="roleinfo" style="width:100%;height:30px;"></select></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<a id="submitBtn" href="javascript:void(0)" class="easyui-linkbutton normal" data-options="iconCls:'icon-ok'" onclick="doSubmitAction()" style="height:30px;width:100px;">提交</a>
+					<a id="editBtn" href="javascript:void(0)" class="easyui-linkbutton normal" data-options="iconCls:'icon-ok'" onclick="doEditAction()" style="display:none;height:30px;width:100px;">提交</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div data-options="region:'center',border:false" style="padding:5px;">
+		<div id="tb" style="padding:5px;">
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="addAction()">添加</a>
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true" onclick="editAction()">修改</a>
+			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="deleteAction()">删除</a>
+			<div id="opMessage" class="ajaxTipsMsg" style="display:none;"></div>
+		</div>
+		<table id="dg"></table>
+      </div>
+</body>
+</html>

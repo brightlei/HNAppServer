@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<webconfig title="系统配置文件">
+  <!-- 系统配置参数 -->
+  <uploadFolder title="文件上传目录">F:/apache-tomcat-8.0.50/webapps/upload</uploadFolder>
+  <phoneReg title="手机号验证正则表达示">^((13[0-9])|(14[5,7,9])|(15([0-3]|[5-9]))|(166)|(17[0,1,3,5,6,7,8])|(18[0-9])|(19[8|9]))\\d{8}$</phoneReg>
+  <!-- 天气预报相关配置 -->
+  <weekWeatherPage title="一周天气预报页面">https://www.tianqi.com/#cityName#/</weekWeatherPage>
+  <day15WeatherPage title="15天天气预报页面">https://www.tianqi.com/#cityName#/15/</day15WeatherPage>
+  <replaceIconUrl title="图标地址中需要替换的字符内容;替换成空">//static.tianqistatic.com/static/</replaceIconUrl>
+  <alarmnews title="天气预警信息">http://www.tianqi.com/alarmnews</alarmnews>
+  <alarmiconHttp title="天气预警信息图标地址前缀">http:</alarmiconHttp>
+  <!-- 农产品价格采集配置 -->
+  <ncpjgPageUrl title="农产品价格页面">http://www.sdnw.gov.cn/ncpjg/index.jhtml</ncpjgPageUrl>
+  <!-- 格点数据产品分别-->
+  <grdRootPath title="格点产品根目录">E:/项目数据资料目录/河南农业/AgmForest</grdRootPath>
+  <grdGroups title="格点产品分类">MeteDay,AgmForecast,AgmDisease,SmForecast,AgmWeather</grdGroups>
+  <cropCode title="作物分类编码">10302,10405,10502,10105,10602,10604</cropCode>
+  <group-MeteDay title="气象要素信息">T,Tmax,Tmin,R,U,Umin,F,Fmax,S,V</group-MeteDay>
+  <group-AgmForecast title="农气灾害预报">GH,ZL,WSD,DH</group-AgmForecast>
+  <group-AgmDisease title="病虫害气象等级预报">BFB,TXB,YC,YMM,DBB,XBB,NC</group-AgmDisease>
+  <group-SmForecast title="土壤墒情预报">SM10,SM20,SM30,SM40,SM50,RSM10,RSM20,RSM30,RSM40,RSM50</group-SmForecast>
+  <group-AgmWeather title="农用天气预报">GG,SF,PY,JG,JB,JS,MB,MS,YB,YS,LS,CC,GGL</group-AgmWeather>
+  <dataFieldConfig title="数据字段和描述配置信息">MeteDay:气象要素信息|AgmForecast:农气灾害预报|AgmDisease:病虫害气象等级预报|SmForecast:土壤墒情预报|AgmWeather:农用天气预报|T:平均气温:℃|Tmax:最高气温:℃|Tmin:最低气温:℃|R:降水量:mm|U:空气湿度:%|Umin:最小湿度:%|F:平均风速:m/s|Fmax:最大风速:m/s|S:日照:h|V:能见度:km|GH_10302:冬小麦干旱|ZL_10302:冬小麦渍涝|WSD_10302:冬小麦晚霜冻|DH_10302:冬小麦冻害|GH_10405:夏玉米干旱|ZL_10405:夏玉米渍涝|WSD_10405:夏玉米晚霜冻|DH_10405:夏玉米冻害|GH_10502:棉花干旱|ZL_10502:棉花渍涝|WSD_10502:棉花晚霜冻|DH_10502:棉花冻害|GH_10105:一季稻干旱|ZL_10105:一季稻渍涝|WSD_10105:一季稻晚霜冻|DH_10105:一季稻冻害|GH_10602:油菜干旱|ZL_10602:油菜渍涝|WSD_10602:油菜晚霜冻|DH_10602:冻害|GH_10604:大豆干旱|ZL_10604:大豆渍涝|WSD_10604:大豆晚霜冻|DH_10604:大豆冻害|BFB_10302:小麦白粉病气象等级|TXB_10302:小麦条锈病气象等级|YC_10302:小麦蚜虫气象等级|YMM_10405:玉米螟气象等级|DBB_10405:玉米大斑病气象等级|XBB_10405:玉米小斑病气象等级|NC_10405:玉米黏虫气象等级|SM10:10cm含水量:%|SM20:20cm含水量:%|SM30:30cm含水量:%|SM40:40cm含水量:%|SM50:50cm含水量:%|RSM10:10cm相对湿度:%|RSM20:20cm相对湿度:%|RSM30:30cm相对湿度:%|RSM40:40cm相对湿度:%|RSM50:50cm相对湿度:%|GG:灌溉指数|SF:施肥指数|PY:喷药指数|JG:机耕指数|JB:机播指数|JS:机收指数|MB:小麦播种|MS:小麦收获|YB:玉米播种|YS:玉米收获|LS:晾晒指数|CC:储藏指数|GGL:灌溉量预报</dataFieldConfig>
+  <!-- 农用天气预报配置 -->
+  <nytqybFolder title="农用天气预报文件目录">E:/项目数据资料目录/河南农业/AgmForest/AgmWeather</nytqybFolder>
+  <nytqybDateCount title="农用天气预报天数">3</nytqybDateCount>
+  <nytqybConfig title="农用天气预报配置">GG,灌溉|SF,施肥|PY,喷药|JG,机耕|JB,机播|JS,机收|MB,小麦播种|MS,小麦收获|YB,玉米播种|YS,玉米收获|LS,晾晒|CC,储藏</nytqybConfig>
+	<getYuJingTokenUrl title="获取预警信息token服务地址">http://172.18.155.38:8080/dataserver/oauth/token</getYuJingTokenUrl>
+	<getYuJingTokenParam title="获取预警信息token参数">client_id=qxt&amp;client_secret=alarm&amp;grant_type=client_credentials&amp;scope=read</getYuJingTokenParam>
+	<getYuJingInfoUrl title="获取预警信息服务地址">http://172.18.155.38:8080/dataserver/weather/alarm?access_token=#token#</getYuJingInfoUrl>
+	
+</webconfig> 

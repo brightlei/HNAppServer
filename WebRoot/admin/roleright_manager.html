@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>角色权限信息管理</title>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <style type="text/css">
+    .inputcss{padding:5px;border:1px solid #f7f7f7;}
+    </style>
+    <script type="text/javascript" src="../jslib/jeasyui.js"></script>
+    <script type="text/javascript" src="js/admin_roleright.js?t=1"></script>
+</head>
+<body oncontextmenu="return false" style="background:#FFFFFF;" class="easyui-layout">
+	<div data-options="region:'west',border:false" style="width:260px;padding:5px;">
+        <div id="treePanel" class="easyui-panel" title="页面菜单信息列表" data-options="fit:true" style="padding:5px;">
+			<div id="treeOpTips" style="display:none;position:absolute;left:10px;top:38px;z-index:555;width:230px;padding:5px;background:#eee;font-weight:bold;color:blue;"></div>
+			<div id="ids"></div>
+			<div id="mm" class="easyui-menu" style="width:120px;">
+			    <div onclick="append()" data-options="iconCls:'icon-add'">添加菜单</div>
+			    <div onclick="removeit()" data-options="iconCls:'icon-remove'">删除菜单</div>
+		    </div>
+            <ul id="menuTree" class="easyui-tree"></ul>
+		</div>
+    </div>
+	<div id="regionCenter" data-options="region:'center',border:false" style="padding:5px;">
+		<input type="hidden" id="pcode" value=""/>
+		<table id="tbForm" class="dataTable" border="1" bordercolor="#95B8E7" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+			<tr>
+				<td style="width:70px;text-align:right;">权限ID：</td>
+				<td><input type="text" class="disabled" id="right_id" disabled style="width:300px;padding:5px;"/></td>
+			</tr>
+			<!-- 
+			<tr>
+				<td style="width:70px;text-align:right;">权限编码：</td>
+				<td><input type="text" class="disabled" id="right_code" disabled style="width:300px;padding:5px;"/></td>
+			</tr>
+			 -->
+			<tr>
+				<td style="width:70px;text-align:right;">权限名称：</td>
+				<td><input type="text" class="input122" id="right_name" style="width:300px;padding:5px;"/></td>
+			</tr>
+			<tr>
+				<td style="width:70px;text-align:right;">页面地址：</td>
+				<td>
+					<select class="easyui-combobox" id="right_pageurl" name="right_pageurl" style="width:320px;"></select>
+					<!-- <input type="text" class="input122" id="right_pageurl" style="width:300px;padding:5px;"/> -->
+				</td>
+			</tr>
+			<!-- 
+			<tr>
+				<td style="width:70px;text-align:right;">操作方法：</td>
+				<td><input type="text" class="input122" id="right_operate" style="width:300px;padding:5px;"/></td>
+			</tr>
+			 -->
+			<tr>
+				<td colspan="2" style="padding-left:30px;"><a href="javascript:void(0)" class="easyui-linkbutton normal" iconCls="icon-ok" style="height:30px;" onclick="updateMenu()">提交</a></td>
+			</tr>
+		</table>
+		<div id="opMessage" class="ajaxTipsMsg" style="display:none;"></div>
+		<div style="margin:5px;display:none;">使用说明：</div>
+	</div>
+</body>
+</html>

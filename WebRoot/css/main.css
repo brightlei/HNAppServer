@@ -1,0 +1,21 @@
+*{margin:0px;padding:0px;}
+body,html{width:100%;height:100%;font-family: "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+a{color:#0063E6;}
+a:hover{color:#FF6600;}
+.hiddentext{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;padding-left:5px;padding-right:5px;}
+.mytable td{padding:2px 0px;}
+.mytable .attr{width:98px;text-align: right;}
+.formtable td{padding:5px;}
+.formtable .right{text-align: right;}
+
+.radiocss{width:16px;height:16px;position:relative;top:3px;}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar{width: 10px;/*滚动条宽度*/height: 10px;/*滚动条高度*/}  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track{  
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);border-radius:10px;/*滚动条的背景区域的圆角*/background-color:#f7f7f7;/*滚动条的背景颜色*/}    
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb{border-radius:10px;/*滚动条的圆角*/-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #AAA;/*滚动条的背景颜色*/}
+
