@@ -47,6 +47,7 @@ public class WeatherUtil {
 		log.info("pageUrl="+pageUrl);
 		/** HtmlUnit请求web页面 */
 		WebClient wc = new WebClient();
+		wc.addRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
 		wc.getOptions().setUseInsecureSSL(false);
 		wc.getOptions().setJavaScriptEnabled(false); // 启用JS解释器，默认为true
 		wc.getOptions().setCssEnabled(false); // 禁用css支持
@@ -100,6 +101,7 @@ public class WeatherUtil {
 		log.info("pageUrl={}",pageUrl);
 		/** HtmlUnit请求web页面 */
 		WebClient wc = new WebClient();
+		wc.addRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
 		wc.getOptions().setUseInsecureSSL(false);
 		wc.getOptions().setJavaScriptEnabled(false); // 启用JS解释器，默认为true
 		wc.getOptions().setCssEnabled(false); // 禁用css支持
@@ -136,7 +138,6 @@ public class WeatherUtil {
 					rcd.put("kqzl", tmpArr[6]);
 					data.add(rcd);
 				}
-				wc.close();
 	        }else{
 	        	log.warn("找不到[{}]对应城市的天气！",cityName);
 	        }
@@ -149,6 +150,8 @@ public class WeatherUtil {
 		} catch (IOException e) {
 			//e.printStackTrace();
 			log.error("IOException",e);
+		}finally{
+			wc.close();
 		}
 		return data;
 	}
@@ -204,7 +207,8 @@ public class WeatherUtil {
 	public static void main(String[] args) {
 		try {
 			//ApplicationListener.rootPath = "D:/JavaWorkSpaces/HNAppServer/WebRoot/";
-			collectDay15Weather();
+			//collectDay15Weather();
+			testGetWeekWeather();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

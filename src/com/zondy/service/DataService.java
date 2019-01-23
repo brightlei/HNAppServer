@@ -229,13 +229,14 @@ public class DataService {
 		XmlConfig sqlXml = new XmlConfig(ApplicationListener.sqlconfigFilePath);
 		XmlConfig webXml = new XmlConfig(ApplicationListener.webconfigFilePath);
 		String grdGroups = webXml.getConfigValue("grdGroups");
-		String dataConfig = webXml.getConfigValue("dataFieldConfig");
+		//String dataConfig = webXml.getConfigValue("dataFieldConfig");
+		paramJson.put("nowtime", DateUtils.date2String("yyyy-MM-dd"));
 		String sql = sqlXml.getParamConfig("getNowWeather", paramJson);
-		System.out.println(sql);
+		log.info("getNowWeather[sql]="+sql);
 		JSONObject today = (JSONObject) ApplicationListener.dao.loadObject(sql);
 		json.put("weather", today);
 		sql = sqlXml.getParamConfig("getTodayForecast", paramJson);
-		System.out.println(sql);
+		log.info("getTodayForecast[sql]="+sql);
 		List<JSONObject> list = (List<JSONObject>) ApplicationListener.dao.listAll(sql);
 		int count = list.size();
 		String[] groupArr = grdGroups.split("[,]");
@@ -253,7 +254,7 @@ public class DataService {
 			}
 			json.put(groupArr[i], groupData);
 		}
-		json.put("fieldinfo", dataConfig);
+		//json.put("fieldinfo", dataConfig);
 		sql = sqlXml.getParamConfig("getStationAlarm", paramJson);
 		JSONObject alarminfo = (JSONObject)dao.loadObject(sql);
 		if(alarminfo != null){
@@ -376,4 +377,106 @@ public class DataService {
 		result = dao.saveObject(sql);
 		return result;
 	}
+	
+	/**
+	 * @Description 添加用户农场农作物.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:55:47
+	 * @param paramJson 请求参数
+	 * @return
+	 */
+	public int addUserFarmCrop(JSONObject paramJson){
+		int result = 0;
+		String filepath = ApplicationListener.sqlconfigFilePath;
+		XmlConfig sqlXml = new XmlConfig(filepath);
+		String sql = sqlXml.getParamConfig("addUserFarmCrop", paramJson);
+		log.info("sql="+sql);
+		result = dao.saveObject(sql);
+		return result;
+	}
+	
+	/**
+	 * @Description 修改用户农场农作物.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:56:11
+	 * @param paramJson
+	 * @return
+	 */
+	public int editUserFarmCrop(JSONObject paramJson){
+		int result = 0;
+		String filepath = ApplicationListener.sqlconfigFilePath;
+		XmlConfig sqlXml = new XmlConfig(filepath);
+		String sql = sqlXml.getParamConfig("editUserFarmCrop", paramJson);
+		log.info("sql="+sql);
+		result = dao.updateObject(sql);
+		return result;
+	}
+	
+	/**
+	 * @Description 删除用户农场农作物.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:56:25
+	 * @param paramJson
+	 * @return
+	 */
+	public int deleteUserFarmCrop(JSONObject paramJson){
+		int result = 0;
+		String filepath = ApplicationListener.sqlconfigFilePath;
+		XmlConfig sqlXml = new XmlConfig(filepath);
+		String sql = sqlXml.getParamConfig("deleteUserFarmCrop", paramJson);
+		log.info("sql="+sql);
+		result = dao.updateObject(sql);
+		return result;
+	}
+	
+	/**
+	 * @Description 获取用户农场农作物.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:56:50
+	 * @param paramJson
+	 * @return
+	 */
+	public List<?> getUserFarmCrop(JSONObject paramJson){
+		XmlConfig sqlXml = new XmlConfig(ApplicationListener.sqlconfigFilePath);
+		String sql = sqlXml.getParamConfig("getUserFarmCrop", paramJson);
+		log.info("sql="+sql);
+		List<JSONObject> list = (List<JSONObject>) ApplicationListener.dao.listAll(sql);
+		return list;
+	}
+	
+	/**
+	 * @Description 获取农场农作物天气预报.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午10:33:02
+	 * @param paramJson
+	 * @return
+	 */
+	public List<?> getUserFarmCropForecast(JSONObject paramJson){
+		//select datetime,group_dir,crop_code,element_name,element_value from T_STATION_GRDDATA where stationId='52000ce067504ef6adfb1d6d3fe3ac25' and (crop_code='10302' or group_dir='AgmWeather') and datetime>'20190112' order by element_name,datetime
+		paramJson.put("nowdate", DateUtils.date2String("yyyyMMdd"));
+		XmlConfig sqlXml = new XmlConfig(ApplicationListener.sqlconfigFilePath);
+		String sql = sqlXml.getParamConfig("getUserFarmCropForecast", paramJson);
+		log.info("sql="+sql);
+		List<JSONObject> list = (List<JSONObject>) ApplicationListener.dao.listAll(sql);
+		return list;
+	}
+	
+	/**
+	 * @Description 保存用户登录日志.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午10:40:41
+	 * @param paramJson
+	 */
+	public int saveUserLoginLog(JSONObject paramJson){
+		int ret = 0;
+		XmlConfig sqlXml = new XmlConfig(ApplicationListener.sqlconfigFilePath);
+		String sql = sqlXml.getParamConfig("saveUserLoginLog", paramJson);
+		// 保存用户登录日志
+		dao.saveObject(sql);
+		sql = sqlXml.getParamConfig("updateUserUsetime", paramJson);
+		// 更新用户最后登录时间
+		ret = dao.updateObject(sql);
+		return ret;
+	}
+	
 }

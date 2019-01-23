@@ -206,7 +206,24 @@ create table T_FARM(
 	edittime varchar(19) default CONVERT(varchar, getdate(), 120), --修改时间
 	state int default 1 --记录状态:0-已删除，1-正常
 )
-
+--创建农场作物信息表
+create table T_FARM_CROP(
+	id int identity primary key,--主键，唯一标识
+	cropcode varchar(20) not null,--农作物代码
+	cropname varchar(30) not null,--农作物名称
+	area decimal(8,3),--种植面积(亩)
+	yield decimal(8,3),--理论产量(斤)
+	address varchar(200),--种植地址
+	x decimal(8,4),--X坐标
+	y decimal(8,4),--Y坐标
+	sowdate date not null,--播种日期
+	remark varchar(500),--备注信息
+	username varchar(30) not null,--创建人
+	createtime varchar(19) default CONVERT(varchar, getdate(), 120), --创建时间
+	edittime varchar(19) default CONVERT(varchar, getdate(), 120), --修改时间
+	state int default 1 --记录状态:0-已删除，1-正常
+)
+-创建预警等级信息表
 create table T_ALARM_LEVEL(
 	id int identity primary key,--主键，唯一标识
 	name varchar(60) not null,--预警名称
@@ -220,6 +237,31 @@ create table T_ALARM_LEVEL(
 	username varchar(30),--创建人
 	createtime varchar(19) default CONVERT(varchar, getdate(), 120), --创建时间
 	edittime varchar(19) default CONVERT(varchar, getdate(), 120), --修改时间
+	state int default 1 --记录状态:0-已删除，1-正常
+)
+
+--创建农产品价格信息表
+create table T_PRODUCT_PRICE(
+	id int identity primary key,--主键，唯一标识
+	datatime varchar(20) not null,--采集时间
+	dataurl varchar(300) not null,--采集页面地址
+	pagedata text,--采集数据JSON字符串
+	createtime varchar(19) default CONVERT(varchar, getdate(), 120), --采集时间
+	state int default 1 --记录状态:0-已删除，1-正常
+)
+
+
+--创建用户使用App记录表
+create table T_USER_LOGIN_LOG(
+	id int identity primary key,--主键，唯一标识
+	username varchar(30) not null,--用户账号
+	clientip varchar(20),--客户端IP地址
+	deviceId varchar(50),--设备ID
+	brand varchar(50),--手机品牌
+	model varchar(60),--手机型号
+	os varchar(20),--系统名称
+	version varchar(20),--系统版本
+	createtime varchar(19) default CONVERT(varchar, getdate(), 120), --操作时间
 	state int default 1 --记录状态:0-已删除，1-正常
 )
 

@@ -1,20 +1,10 @@
-/**
- * 这里是文件说明
- */
 package com.zondy.agricultural;
 
 /**
- * 模块名称：该模块名称
- * 功能描述：该文件详细功能描述
- * 文档作者：雷志强
- * 创建时间：2018年2月25日 下午9:04:55
- * 初始版本：V1.0
- * 修改记录：
- * *************************************************
- * 修改人：雷志强
- * 修改时间：2018年2月25日 下午9:04:55
- * 修改内容：
- * *************************************************
+ * @Description：该文件详细功能描述
+ * @author：雷志强
+ * @date：2018年2月25日 下午9:04:55
+ * @version：V1.0
  */
 public class GrdBean {
 	
@@ -115,6 +105,7 @@ public class GrdBean {
 		this.data = data;
 	}
 	
+	@Override
 	public String toString(){
 		return "row="+row+",col="+col+",xmin="+xmin+",ymin="+ymin+",xmax="+xmax+",ymax="+ymax+",zmin="+zmin+",zmax="+zmax+",xstep="+xstep+",ystep="+ystep;
 	}

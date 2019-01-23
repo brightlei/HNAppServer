@@ -1,13 +1,3 @@
-/**   
- * 特别声明：本技术材料受《中华人民共和国着作权法》、《计算机软件保护条例》
- * 等法律、法规、行政规章以及有关国际条约的保护，武汉中地数码科技有限公
- * 司享有知识产权、保留一切权利并视其为技术秘密。未经本公司书面许可，任何人
- * 不得擅自（包括但不限于：以非法的方式复制、传播、展示、镜像、上载、下载）使
- * 用，不得向第三方泄露、透露、披露。否则，本公司将依法追究侵权者的法律责任。
- * 特此声明！
- * 
-   Copyright (c) 2013,武汉中地数码科技有限公司
- */
 package test;
 
 import java.io.File;
@@ -518,6 +508,26 @@ public class UnitTest {
 		AppAction action = new AppAction();
 		action.requestParam.put("username", "15926369823");
 		String result = action.getUserFarm();
+		System.out.println(action.dataMap);
+	}
+	
+	@Test
+	public void testAddUserFarmCrop(){
+		AppAction action = new AppAction();
+		action.requestParam.put("remark", "老K主贵THX");
+		action.requestParam.put("x", "0");
+		action.requestParam.put("y", "0");
+		action.requestParam.put("sowdate", "2019-01-13");
+		action.requestParam.put("area", "0.53");
+		action.requestParam.put("yield", "599");
+		action.requestParam.put("cropcode", "10302");
+		action.requestParam.put("cropname", "冬小麦");
+		action.requestParam.put("address", "333新乡小麦农场ASDSDSA");
+		action.requestParam.put("x", "113.425");
+		action.requestParam.put("y", "32.415");
+		action.requestParam.put("description", "简介");
+		action.requestParam.put("username", "15926369823");
+		String result = action.addFarmCrop();
 		System.out.println(action.dataMap);
 	}
 	

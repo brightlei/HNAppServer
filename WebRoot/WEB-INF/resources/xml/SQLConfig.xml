@@ -25,6 +25,9 @@
 	<checkDayGrdData title="检查当天格点产品数据是否存在">select * from T_STATION_GRDDATA where stationId='#stationId#' and grd_name='#grd_name#'</checkDayGrdData>
 	<saveGrdData title="保存格点产品数据">insert into T_STATION_GRDDATA(stationId,datetime,grd_name,group_dir,crop_code,element_time,element_name,element_value,updatetime) values('#stationId#','#datetime#','#grd_name#','#group_dir#','#crop_code#','Day','#element_name#','#element_value#','#updatetime#')</saveGrdData>
 	<updateGrdData title="更新格点产品数据">update T_STATION_GRDDATA set element_value='#element_value#',updatetime='#updatetime#' where stationId='#stationId#' and grd_name='#grd_name#'</updateGrdData>
+	<saveProductPrice title="保存农产品价格">insert into T_PRODUCT_PRICE(datatime,dataurl,pagedata) values('#datatime#','#dataurl#','#content#')</saveProductPrice>
+	<checkProductPriceExist title="检查农产品价格是否采集">select count(1) from T_PRODUCT_PRICE where datatime='#datatime#'</checkProductPriceExist>
+	<getProductPrice title="获取最近7天农产品价格数据">select top 1 datatime,pagedata from T_PRODUCT_PRICE order by datatime desc</getProductPrice>
 	<!-- 数据采集结束 -->
 	<pwdQuestionList title="找回密码问题列表">select code,name from T_DICDATA where diccode='FINDPWD'</pwdQuestionList>
 	<checkUserExist title="检查用户是否存在">select count(1) from T_USER where username='#username#'</checkUserExist>
@@ -40,7 +43,7 @@
 	<deleteUserStation title="删除用户关注站点">delete from T_USER_STATION where username='#username#' and stationid='#stationid#'</deleteUserStation>
 	<getNowWeather title="获取当前最新预报">select * from T_WEATHER_NOW where datetime=CONVERT(varchar(100), GETDATE(), 23) and stationid='#stationid#'</getNowWeather>
 	<getTodayForecast title="获取今天天气预报数据">select stationid,datetime,group_dir,crop_code,element_time,element_name,element_value,updatetime from T_STATION_GRDDATA where datetime=CONVERT(varchar(100), GETDATE(), 112) and stationid='#stationid#'</getTodayForecast>
-	<getWeatherDay15Data title="获取每日数据">select * from T_WEATHER_DAY15 where datetime=CONVERT(varchar(100), GETDATE(), 23) and stationid='#stationid#'</getWeatherDay15Data>
+	<getWeatherDay15Data title="获取每日数据">select top 15 from T_WEATHER_DAY15 where stationid='#stationid#' order by datetime desc</getWeatherDay15Data>
 	<getAgrWeatherData title="获取农用天气预报">select stationid,datetime,group_dir,crop_code,element_time,element_name,element_value,updatetime from T_STATION_GRDDATA where datetime>=CONVERT(varchar(100), GETDATE(), 112) and group_dir='AgmWeather' and stationid='#stationid#' order by datetime,group_dir</getAgrWeatherData>
 	<updateUserPwd title="修改用户密码">update T_USER set userpwd='#md5newpwd#' where username='#username#'</updateUserPwd>
 	<updateUserImg title="修改用户头像">update T_USER set userimg='#userimg#' where username='#username#'</updateUserImg>
@@ -52,4 +55,11 @@
 	<getUserFarm title="获取用户农场列表" time="2018-11-29 16:28">select * from T_FARM where username='#username#' order by createtime desc</getUserFarm>
 	<deleteUserFarm title="删除用户农场信息">delete from T_FARM where id='#id#' and username='#username#'</deleteUserFarm>
 	<getStationAlarm>select top 1 * from T_WEATHER_ALARM where stationid='#stationid#' order by id desc</getStationAlarm>
+	<addUserFarmCrop title="添加用户农场农作物信息">insert into T_FARM_CROP(cropcode,cropname,area,yield,address,x,y,sowdate,remark,username) values('#cropcode#','#cropname#','#area#','#yield#','#address#',#x#,#y#,'#sowdate#','#remark#','#username#')</addUserFarmCrop>
+	<editUserFarmCrop title="修改用户农场农作物信息">update T_FARM_CROP set 1=1 where id='#id#' and username='#username#'</editUserFarmCrop>
+	<deleteUserFarmCrop title="删除用户农场农作物信息">delete * from T_FARM_CROP where id='#id#' and username='#username#'</deleteUserFarmCrop>
+	<getUserFarmCrop title="获取用户农场农作物列表">select * from T_FARM_CROP where username='#username#'</getUserFarmCrop>
+	<getUserFarmCropForecast title="获取农作物天气预报">select datetime,group_dir,crop_code,element_name,element_value from T_STATION_GRDDATA where stationId='#stationid#' and (crop_code='#cropcode#' or group_dir='AgmWeather') and datetime>'#nowdate#' order by element_name,datetime</getUserFarmCropForecast>
+	<!-- 日志功能模块 -->
+	<saveUserLoginLog title="记录用户登录日志">insert into T_USER_LOGIN_LOG(username,clientip,deviceId,brand,model,os,version) values('#username#','#clientip#','#deviceId#','#brand#','#model#','#os#','#version#');</saveUserLoginLog>
 </configs>

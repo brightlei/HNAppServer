@@ -1,26 +1,21 @@
 package com.zondy.web.json;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.sql.SQLException;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.auth0.jwt.exceptions.JWTCreationException;
+import com.zondy.collect.AgrProductPrice;
 import com.zondy.collect.WeatherAlarm;
+import com.zondy.collect.WeatherAlarmUtils;
+import com.zondy.collect.WeatherForecast;
 import com.zondy.config.XmlConfig;
-import com.zondy.database.dao.BaseDAOImpl;
 import com.zondy.listener.ApplicationListener;
 import com.zondy.service.DataService;
 import com.zondy.util.JwtToken;
 import com.zondy.util.MD5Utils;
 import com.zondy.util.StationUtil;
-import com.zondy.util.ZondyUtil;
 
 /**
  * 模块名称：ForecastAction									<br>
@@ -389,6 +384,134 @@ public class AppAction extends BaseAction{
 		WeatherAlarm alarm = new WeatherAlarm();
 		JSONArray alarms = alarm.getCityAlarm();
 		this.dataMap.put("data", alarms);
+		return "map";
+	}
+	
+	/**
+	 * @Description 添加用户农场农作物.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:50:51
+	 * @return 返回结果对象
+	 */
+	public String addFarmCrop(){
+		int data = dataService.addUserFarmCrop(this.requestParam);
+		this.dataMap.put("data", data);
+		return "map";
+	}
+	
+	/**
+	 * @Description 修改用户农场农作物信息.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:51:18
+	 * @return 返回结果对象
+	 */
+	public String editFarmCrop(){
+		int data = dataService.editUserFarmCrop(this.requestParam);
+		this.dataMap.put("data", data);
+		return "map";
+	}
+	
+	/**
+	 * @Description 获取用户农场农作物列表.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:51:37
+	 * @return 返回结果对象
+	 */
+	public String getFarmCrop(){
+		List data = dataService.getUserFarmCrop(this.requestParam);
+		this.dataMap.put("data", data);
+		return "map";
+	}
+	
+	/**
+	 * @Description 删除用户农场农作物信息.<br>
+	 * @author LZQ
+	 * @date 2019年1月13日 上午1:51:56
+	 * @return 返回结果对象
+	 */
+	public String deleteFarmCrop(){
+		int data = dataService.deleteUserFarmCrop(this.requestParam);
+		this.dataMap.put("data", data);
+		return "map";
+	}
+	/**
+	 * @Description 获取农场作物天气预报.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午10:17:56
+	 * @return
+	 */
+	public String getFarmCropForcast(){
+		List data = dataService.getUserFarmCropForecast(this.requestParam);
+		this.dataMap.put("data", data);
+		return "map";
+	}
+	
+	/**
+	 * @Description 获取最近一周农产品价格.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午10:21:29
+	 * @return
+	 */
+	public String getProductPrice(){
+		AgrProductPrice price = new AgrProductPrice();
+		List<?> data = price.loadPriceData();
+		XmlConfig webXml = new XmlConfig(ApplicationListener.webconfigFilePath);
+		String marketConfig = webXml.getConfigValue("marketConfig");
+		String productConfig = webXml.getConfigValue("ncpmcConfig");
+		this.dataMap.put("data", data);
+		this.dataMap.put("markets", marketConfig);
+		this.dataMap.put("products", productConfig);
+		return "map";
+	}
+	
+	/**
+	 * @Description 保存用户登录日志.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午10:43:01
+	 * @return
+	 */
+	public String saveUserLoginLog(){
+		int ret = dataService.saveUserLoginLog(requestParam);
+		this.dataMap.put("data", ret);
+		return "map";
+	}
+	
+	/**
+	 * @Description 采集最新预警信息.<br>
+	 * @author LZQ
+	 * @date 2019年1月14日 上午12:59:16
+	 * @return
+	 */
+	public String collectAlarmInfo(){
+		String result = WeatherAlarmUtils.collectHeNanAlarm();
+		this.dataMap.put("data", result);
+		return "map";
+	}
+	/**
+	 * @Description 采集所有站点最新天气预报.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午1:24:02
+	 * @return
+	 */
+	public String collectNowData(){
+		WeatherForecast.collectWeatherForecast();
+		this.dataMap.put("data", "ok");
+		return "map";
+	}
+	
+	/**
+	 * @Description 采集农产品价格数据.<br>
+	 * @author LZQ
+	 * @date 2019年1月15日 下午9:48:12
+	 * @return
+	 */
+	public String collectProductPrice(){
+		long st = System.currentTimeMillis();
+		AgrProductPrice price = new AgrProductPrice();
+		price.collectProductPrice();
+		long et = System.currentTimeMillis();
+		int second = Math.round((et-st)/1000);
+		this.dataMap.put("data", "农产品价格数据采集完毕！耗时："+second+"秒");
 		return "map";
 	}
 }

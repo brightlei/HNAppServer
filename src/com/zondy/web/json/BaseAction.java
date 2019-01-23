@@ -22,6 +22,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.auth0.jwt.interfaces.Claim;
 import com.opensymphony.xwork2.ActionSupport;
 import com.zondy.util.JwtToken;
+import com.zondy.util.SystemUtils;
 
 @SuppressWarnings("serial")
 public class BaseAction extends ActionSupport implements SessionAware,
@@ -49,8 +50,11 @@ public class BaseAction extends ActionSupport implements SessionAware,
 		this.request=request;
 		requestSessionId = request.getSession().getId();
 		requestSessionId = "";
+		// 客户端IP地址
+		String clientip = SystemUtils.getClientIpAddress(request);
+		// 请求方式
 		String requestMethod = request.getMethod();
-		//将request中的请求参数转换成json对象
+		// 将request中的请求参数转换成json对象
 		this.requestParam = paramToJson(request.getParameterMap());
 		if(requestMethod.toLowerCase().equals("post")){
 			JSONObject postparam = getParam();
@@ -68,6 +72,7 @@ public class BaseAction extends ActionSupport implements SessionAware,
 				}
 			}
 		}
+		requestParam.put("clientip", clientip);
 		//请求的URL地址
 		String uri = request.getRequestURI();
 		log.info("["+requestSessionId+"]getRequestURI="+uri);

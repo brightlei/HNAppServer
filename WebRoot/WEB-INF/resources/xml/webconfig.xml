@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
+
 <webconfig title="系统配置文件"> 
   <!-- 系统配置参数 -->  
   <uploadFolder title="文件上传目录">F:/apache-tomcat-8.0.50/webapps/upload</uploadFolder>  
@@ -11,7 +12,9 @@
   <alarmnews title="河南省天气预警信息">https://www.tianqi.com/alarmnews_18/</alarmnews>  
   <alarmiconHttp title="天气预警信息图标地址前缀">http:</alarmiconHttp>  
   <!-- 农产品价格采集配置 -->  
-  <ncpjgPageUrl title="农产品价格页面">http://www.sdnw.gov.cn/ncpjg/index.jhtml</ncpjgPageUrl>  
+  <ncpjgPageUrl title="农产品价格页面">http://zzny.zhengzhou.gov.cn/ncpjg/index.jhtml</ncpjgPageUrl>  
+  <marketConfig title="农产品批发市场配置信息20190115">scmc,wbgjpfsc,gzscpfsc,gpnmsc,bsnmsc,wslnmsc,grlnmsc|市场名称,万邦国际批发市场,高寨蔬菜批发市场,岗坡农贸市场,百顺农贸市场,纬四路农贸市场,工人路农贸市场</marketConfig>  
+  <ncpmcConfig title="农产品名称配置信息20190115">dabaicai,大白菜|xiaobaicai,小白菜|baocai,包菜|huacai,花菜|bailuobu,白萝卜|huluobu,胡萝卜|huanggua,黄瓜|xihulu,西葫芦|donggua,冬瓜|fanqie,番茄|lajiao,辣椒|qiezi,茄子|sijidou,四季豆|zhangdoujiao,长豆角|bocai,菠菜|qincai,芹菜|wosun,莴笋|dacong,大葱|jiucai,韭菜|dasuan,大蒜|jingfen,精粉|biaofen,标粉|sanzhuangdami,散装大米|tongzhuanghuashengyou,桶装花生油|tongzhuangdadouyou,桶装大豆油|tongzhuangcaiziyou,桶装菜籽油|tongzhuangdadoudiaoheyou,桶装大豆调和油|wuhuarou,五花肉|jingshourou,精瘦肉|leipai,肋排|niujianrou,牛腱肉|niunanrou,牛腩肉|quguxianyangrou,去骨鲜羊肉|liyu,鲤鱼|caoyu,草鱼|jiyu,鲫鱼|daiyu,带鱼|jidan,鸡蛋</ncpmcConfig>  
   <!-- 格点数据产品分别-->  
   <grdRootPath title="格点产品根目录">E:/项目数据资料目录/河南农业/AgmForest</grdRootPath>  
   <grdGroups title="格点产品分类">MeteDay,AgmForecast,AgmDisease,SmForecast,AgmWeather</grdGroups>  
@@ -32,7 +35,7 @@
   <getYuJingTokenParam title="获取预警信息token参数">client_id=kys&amp;client_secret=65922998&amp;grant_type=client_credentials&amp;scope=read</getYuJingTokenParam>  
   <getYuJingInfoUrl title="获取预警信息服务地址">http://hnzyqx.ha.cn/api/weather/alarm?access_token=#token#</getYuJingInfoUrl>  
   <yuJingToken title="预警token值90天有效">98553dfd-5c85-4440-a5c3-36daac24a84f</yuJingToken>  
-  <yuJingTokenTime title="预警token有效期时间">2019-01-06 11:43:38</yuJingTokenTime>
-  <alarm_level title="预警等级">蓝色|黄色|橙色|红色</alarm_level>
-  <alarm_type title="预警分类">台风|暴雨|暴雪|寒潮|大风|沙尘暴|高温|干旱|雷电|冰雹|霜冻|大雾|道路结冰|霾|森林火险|</alarm_type>
+  <yuJingTokenTime title="预警token有效期时间">2019-01-06 11:43:38</yuJingTokenTime>  
+  <alarm_level title="预警等级">蓝色|黄色|橙色|红色</alarm_level>  
+  <alarm_type title="预警分类">台风|暴雨|暴雪|寒潮|大风|沙尘暴|高温|干旱|雷电|冰雹|霜冻|大雾|道路结冰|霾|森林火险|</alarm_type> 
 </webconfig>

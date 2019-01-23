@@ -1,17 +1,5 @@
 package com.zondy.timetask;
-/**
- * 模块名称：该模块名称								<br>
- * 功能描述：该文件详细功能描述							<br>
- * 文档作者：雷志强									<br>
- * 创建时间：2015-1-19 上午12:40:43					<br>
- * 初始版本：V1.0										<br>
- * 修改记录：											<br>
- * *************************************************<br>
- * 修改人：雷志强										<br>
- * 修改时间：2015-1-19 上午12:40:43					<br>
- * 修改内容：											<br>
- * *************************************************<br>
- */
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,10 +19,16 @@ import org.quartz.JobExecutionException;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.zondy.collect.AgrProductPrice;
 import com.zondy.listener.ApplicationListener;
 import com.zondy.util.Dom4jUtils;
 import com.zondy.util.PinyinUtil;
-
+/**
+ * 农产品价格采集定时任务
+ * @author LZQ  
+ * @date 2019年1月15日 下午9:41:01
+ * @version 1.0
+ */
 public class PriceCollectJob extends BaseJob {
 
 	@SuppressWarnings("deprecation")
@@ -44,19 +38,24 @@ public class PriceCollectJob extends BaseJob {
 		log("[任务调度]--"+instName+"--开始");
 		JobDataMap dataMap = context.getJobDetail().getJobDataMap();
 		HashMap<String, String> configMap = (HashMap<String, String>)dataMap.get("configMap");
+		// 定时任务重复执行次数，默认执行一次
 		int retryTimes = 1;
-		int retrySpaceTime = 5;//单位:分钟
-		if(configMap.get("retryTimes")!=null){
+		// 重复执行间隔时间，默认为5分钟
+		int retrySpaceTime = 5;
+		if(configMap.get("retryTimes") != null){
 			retryTimes = Integer.parseInt(configMap.get("retryTimes"));
 		}
-		if(configMap.get("retrySpaceTime")!=null){
+		if(configMap.get("retrySpaceTime") != null){
 			retrySpaceTime = Integer.parseInt(configMap.get("retrySpaceTime"));
 			log("执行["+retryTimes+"]次，每次间隔["+retrySpaceTime+"]分钟");
 		}
 		int doTimes = 1;
-		while(doTimes<=retryTimes){
+		while(doTimes <= retryTimes){
 			log("第【"+doTimes+"】次执行【"+configMap.get("taskName")+"】定时任务");
-			doAction();
+			// 采集农产品价格
+			AgrProductPrice agrProductPrice = new AgrProductPrice();
+			agrProductPrice.collectProductPrice();
+			//doAction();
 			doTimes++;
 			try {
 				Thread.sleep(retrySpaceTime*60*1000);

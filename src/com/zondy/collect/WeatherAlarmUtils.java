@@ -7,7 +7,9 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+import org.jsoup.Connection.Response;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -26,17 +28,8 @@ public class WeatherAlarmUtils {
 	
 	private static Logger log = Logger.getLogger(WeatherAlarmUtils.class);
 	
-	public static void collectHeNanAlarm(){
-		
-	}
-	/**
-	 * 采集预警数据.<br>
-	 * @return void
-	 */
-	@SuppressWarnings("unchecked")
-	public static String collectAlarm(){
+	public static String collectHeNanAlarm(){
 		String msg = "";
-		/**
 		//最新采集的页面地址
 		String url = "";
 		XmlConfig xml = new XmlConfig(ApplicationListener.webconfigFilePath);
@@ -115,7 +108,99 @@ public class WeatherAlarmUtils {
 			}
 		}
 		msg = "共采集["+dataCount+"]条预警数据，其中["+okCount+"]条为河南省数据";
-		*/
+		return msg;
+	}
+	/**
+	 * 采集预警数据.<br>
+	 * @return void
+	 */
+	@SuppressWarnings("unchecked")
+	public static String collectAlarm(){
+		String msg = "";
+		//最新采集的页面地址
+		String url = "";
+		XmlConfig xml = new XmlConfig(ApplicationListener.webconfigFilePath);
+		String pageurl = xml.getConfigValue("alarmnews");
+		String http = xml.getConfigValue("alarmiconHttp");
+		XmlConfig sqlxml = new XmlConfig(ApplicationListener.sqlconfigFilePath);
+		//查询数据库中已采集的最新预警记录信息
+		List<JSONObject> newlist = (List<JSONObject>)ApplicationListener.dao.listAll(sqlxml.getConfigValue("getNewAlarmRecord"),1,1);
+		if(newlist!=null && newlist.size()==1){
+			url = newlist.get(0).getString("pageurl");
+		}
+		log.info("最新采集的页面地址："+url);
+		//读取所有的站点数据
+		List<JSONObject> stations = StationUtil.getAllStation();
+		//采集的页面地址集合
+		List<JSONObject> dataList = new ArrayList<JSONObject>();
+		//当页的所有页面集合
+		List<JSONObject> pageurlList = null;
+		//读取最近的5页数据，直到已采集的最新的地址那条数据
+		for(int i=1;i<5;i++){
+			pageurlList = rearPageAlarm(pageurl+"/"+i,dataList);
+			dataList.addAll(pageurlList);
+			if(checkUrlExist(pageurlList, url)){
+				log.info("已读取完所有的未采集的页面！");
+				break;
+			}
+			try {
+				//延迟2秒执行，防止页面屏蔽调用
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				log.error("InterruptedException", new Throwable(e));
+			}
+		}
+		String dataurl = null;
+		String title = null;
+		JSONObject info = null;
+		int dataCount = dataList.size();
+		log.info("共采集到["+dataCount+"]条数据");
+		String sql = null;
+		List<JSONObject> newDataList = new ArrayList<JSONObject>();
+		//处理未采集的数据
+		for(int i=0;i<dataCount;i++){
+			info = dataList.get(i);
+			dataurl = info.getString("dataurl");
+			if(!dataurl.equals(url)){
+				newDataList.add(info);
+			}else{
+				log.info("该页面已采集！"+dataurl);
+				break;
+			}
+		}
+		dataCount = newDataList.size();
+		log.info("共["+dataCount+"]条数据未采集！");
+		JSONObject station = null;
+		int okCount = 0;
+		for (int i = dataCount-1; i >= 0; i--) {
+			info = dataList.get(i);
+			dataurl = info.getString("dataurl");
+			title = info.getString("title");
+			station = isHeNanAlarm(stations, title);
+			sql = sqlxml.getParamConfig("saveAlarmRecord", info);
+			ApplicationListener.dao.saveObject(sql);
+			//如果为河南省预警信息则入库
+			if(station != null){
+				try {
+					info.put("stationId", station.getString("stationid"));
+					info.put("station_no", station.getString("station_no"));
+					int ret = readAlarmInfo(dataurl, info, http, sqlxml);
+					if(ret==1){
+						okCount += ret;
+						log.info("["+station.getString("name")+"]预警数据采集成功！"+title);
+					}
+					try {
+						//延迟2秒执行，防止页面屏蔽调用
+						Thread.sleep(2000);
+					} catch (InterruptedException e) {
+						log.error("InterruptedException", new Throwable(e));
+					}
+				} catch (IOException e) {
+					log.error("IOException", new Throwable(e));
+				}
+			}
+		}
+		msg = "共采集["+dataCount+"]条预警数据，其中["+okCount+"]条为河南省数据";
 		return msg;
 	}
 	/**
@@ -174,7 +259,14 @@ public class WeatherAlarmUtils {
 		/**jsoup解析文档*/
 		Document doc = null;
 		try {
-			doc = Jsoup.connect(pageurl).get();
+			// 定义HTTP连接对象
+			Connection connection = Jsoup.connect(pageurl);
+			// 定义 HTTP请求的用户代理头。
+			connection.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
+			// 定义请求响应对象
+			Response response = connection.execute();
+			doc = response.parse();
+			//doc = Jsoup.connect(pageurl).get();
 			if(doc != null){
 				Element newslist_yj = doc.getElementsByClass("newslist_yj").first();
 		        Elements datalist = newslist_yj.getElementsByTag("li");
@@ -276,7 +368,14 @@ public class WeatherAlarmUtils {
 	public static int readAlarmInfo(String dataurl,JSONObject info,String http,XmlConfig xml) throws IOException{
 		//String xmlStr = FileUtils.readFileToString(new File("c:/234.txt"), "UTF-8");
 		//Document doc = Jsoup.parse(xmlStr);
-		Document doc = Jsoup.connect(dataurl).get();
+		// 定义HTTP连接对象
+		Connection connection = Jsoup.connect(dataurl);
+		// 定义 HTTP请求的用户代理头。
+		connection.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
+		// 定义请求响应对象
+		Response response = connection.execute();
+		Document doc = response.parse();
+		//Document doc = Jsoup.connect(dataurl).get();
 		String yj_icon = http+doc.getElementsByClass("yj_icon").first().getElementsByTag("img").attr("src");
 		String text = doc.getElementById("newscont").text();
 		String[] tArr = text.split("[　　]");
@@ -292,9 +391,11 @@ public class WeatherAlarmUtils {
 	
 	public static void main(String[] args) {
 		try {
+			String result = collectHeNanAlarm();
+			System.out.println(result);
 			//collectHeNanAlarm();
-			List<JSONObject> list = rearPageAlarmList("https://www.tianqi.com/alarmnews_18/");
-			System.out.println(list);
+			//List<JSONObject> list = rearPageAlarmList("https://www.tianqi.com/alarmnews_18/");
+			//System.out.println(list);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

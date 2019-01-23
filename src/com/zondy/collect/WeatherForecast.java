@@ -38,7 +38,7 @@ public class WeatherForecast {
 		JSONObject station = null;
 		log.info("查询河南省所有城市：["+count+"]个");
 		String pageurl = basePageUrl;
-		for(int i=0;i<10;i++){
+		for(int i=0;i<count;i++){
 			station = stations.get(i);
 			pageurl = basePageUrl.replaceAll("#cityName#", station.getString("ename"));
 			readForeCastData(pageurl, station);
@@ -64,11 +64,11 @@ public class WeatherForecast {
 			connection.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
 			// 定义请求响应对象
 			Response response = connection.execute();
-			System.out.println(response.statusCode());
 			doc = response.parse();
 			//String xmlStr = FileUtils.readFileToString(new File("c:/tianqi.txt"), "UTF-8");
 			//doc = Jsoup.parse(xmlStr);
-			saveHtml(pageurl, doc.html());
+			log.info("站点["+stationName+"]页面内容读取成功!");
+			//saveHtml(pageurl, doc.html());
 			Element weatherBoxElement = doc.getElementsByClass("weatherbox").first();
 			String city_name = weatherBoxElement.getElementsByClass("name").first().getElementsByTag("h2").text();
 			info.put("city_name", city_name);
@@ -137,6 +137,7 @@ public class WeatherForecast {
 				log.info("站点["+stationName+"]实时天气预报数据采集更新成功！");
 			}
 		} catch (IOException e) {
+			log.info("站点["+stationName+"]页面内容读取失败!");
 			log.error("IOException",new Throwable(e));
 		}
 	}
@@ -152,7 +153,7 @@ public class WeatherForecast {
 		File file = new File(pageurl);
 		String cityEnName = file.getName();
 		System.out.println(cityEnName);
-		String filepath = "F:/tianqi/"+cityEnName+".html";
+		String filepath = "D:/tianqi/"+cityEnName+".html";
 		try {
 			FileUtils.write(new File(filepath), text, "UTF-8");
 		} catch (IOException e) {

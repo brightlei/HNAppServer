@@ -8,4 +8,5 @@
   <config id="weatherForecastJob" taskName="采集河南省天气预报数据信息" taskClass="com.zondy.timetask.WeatherForecastJob" taskCronTrigger="0 0/20 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
   <config id="day15weatherJob" taskName="15天天气预报数据采集" taskClass="com.zondy.timetask.WeatherDay15Job" taskCronTrigger="0 0/20 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
   <config id="grdDataCollecttJob" taskName="格点产品数据采集" taskClass="com.zondy.timetask.GrdDataCollectJob" taskCronTrigger="0 0 *  * * ?" isExecute="true" retryTimes="1" retrySpaceTime="30"/>
+  <config id="agrProductPriceCollecttJob" taskName="农产品价格数据采集" taskClass="com.zondy.timetask.PriceCollectJob" taskCronTrigger="0 0 15  * * ?" isExecute="true" retryTimes="3" retrySpaceTime="30"/>
 </taskConfig>

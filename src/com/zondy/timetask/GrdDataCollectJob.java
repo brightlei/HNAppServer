@@ -9,6 +9,12 @@ import org.quartz.JobExecutionException;
 import com.zondy.collect.GrdDataCollect;
 import com.zondy.util.DateUtils;
 
+/**
+ * 格点数据采集定时任务
+ * @author LZQ  
+ * @date 2019年1月15日 下午9:40:32
+ * @version 1.0
+ */
 public class GrdDataCollectJob extends BaseJob {
 	
 	@SuppressWarnings("unchecked")

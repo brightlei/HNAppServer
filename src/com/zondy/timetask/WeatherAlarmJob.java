@@ -25,7 +25,7 @@ public class WeatherAlarmJob extends BaseJob {
 		HashMap<String, String> configMap = (HashMap<String, String>)dataMap.get("configMap");
 		log("定时任务参数："+configMap);
 		try {			
-			String result = WeatherAlarmUtils.collectAlarm();
+			String result = WeatherAlarmUtils.collectHeNanAlarm();
 			log(result);
 		} catch (Exception e) {
 			e.printStackTrace();
